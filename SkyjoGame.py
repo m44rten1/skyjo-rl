@@ -1,6 +1,9 @@
 import gym
 from gym import spaces
 
+# EXAMPLE IMPLEMENTATION:
+# https://towardsdatascience.com/creating-a-custom-openai-gym-environment-for-stock-trading-be532be3910e
+
 class SkyjoGame(gym.Env):
   """Custom Environment that follows gym interface"""
   metadata = {'render.modes': ['human']}
